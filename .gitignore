@@ -1,1 +1,3 @@
 *.egg-info/
+tests/__pycache__
+tests/app.log
