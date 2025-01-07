@@ -7,9 +7,10 @@
 - **Customizable Logging**: Set log file names and configure rotation settings with ease.
 - **File Rotation**:
   - By timestamp.
-  - By file size.
+  - By file size. (By default)
   - By number of logs.
 - **Synchronous Logging**: Fully supported.
+- **Thread Safe Logging**: Fully supported.
 - **Asynchronous Logging**: Coming soon in future releases!
 
 ## Installation
