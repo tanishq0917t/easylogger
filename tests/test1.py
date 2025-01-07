@@ -1,5 +1,5 @@
-from easylogger.Logger import Logger
-from easylogger.LogLevels import LogLevel
+from loggingontips.Logger import Logger
+from loggingontips.LogLevels import LogLevel
 l1=Logger()
 
 def run():
