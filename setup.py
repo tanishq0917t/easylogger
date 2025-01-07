@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="loggingontips",
-    version="0.1.0",
+    version="0.1.1",
     description="loggingontips is a library which makes logging flexible and easy to use without bothering about log management.",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
