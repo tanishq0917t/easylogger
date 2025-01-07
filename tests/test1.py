@@ -3,7 +3,8 @@ from easylogger.LogLevels import LogLevel
 l1=Logger()
 
 def run():
-    l1.log(LogLevel.DEBUG,'Is it working?')
+    for i in range(100000):
+        l1.log(LogLevel.DEBUG,'Working?')
 
 if __name__=="__main__":
     run()
