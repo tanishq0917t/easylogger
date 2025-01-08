@@ -13,7 +13,7 @@ def test_thread_safe_log():
     logger = Logger(log_file=log_file)
 
     def worker(thread_id):
-        for i in range(10):
+        for i in range(100):
             logger.thread_safe_log(LogLevel.INFO, f"Thread-{thread_id} log message {i}")
 
     threads = []
