@@ -1,4 +1,4 @@
 *.egg-info/
 tests/__pycache__
-tests/app.log
+tests/*.log
 loggingontips/__pycache__/
