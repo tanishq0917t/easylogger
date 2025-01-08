@@ -13,6 +13,17 @@
 - **Thread Safe Logging**: Fully supported.
 - **Asynchronous Logging**: Coming soon in future releases!
 
+
+### Log Levels
+<ul>
+  <li>INFO</li>
+  <li>DEBUG</li>
+  <li>WARNING</li>
+  <li>CRITICAL</li>
+  <li>ERROR</li>
+</ul>
+
+
 ## Installation
 
 Install the package using pip:
