@@ -10,7 +10,7 @@ class Logger:
     __instance = None
     __file = None
     __log_file = None
-    __max_file_size = 100*1024
+    __max_file_size = 1024
     __last_time=None
     __lock = threading.RLock()
 
